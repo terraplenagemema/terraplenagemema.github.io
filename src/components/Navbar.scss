@@ -1,0 +1,27 @@
+@import "../ema_bootstrap";
+
+.navbar-ema {
+    background-color: #000;
+    border-bottom: 2px solid $primary;
+}
+
+.logo-container {
+    width: 32px;
+    height: 32px;
+    margin-right: 1rem;
+    background-color: #000;
+    display: inline-block;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    image-rendering: optimizeSpeed;
+}
+
+
+@include media-breakpoint-up(lg) {
+    .navbar-expand-lg .navbar-custom-toggler {
+        display: none;
+    }
+}

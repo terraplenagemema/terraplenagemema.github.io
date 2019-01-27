@@ -1,0 +1,20 @@
+@import "../ema_bootstrap";
+
+.header {
+    height: 500px;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header-content {
+    background-color: #000;
+    border: 2px solid $primary;
+}
+
+@media (min-width: 75em) {
+    .header-title {
+        font-size: 64px;
+    }
+}

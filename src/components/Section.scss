@@ -1,0 +1,23 @@
+@import "../ema_bootstrap";
+
+.section-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    text-decoration: underline;
+}
+
+.section-divider {
+    margin: 2rem 0;
+    border: 1px solid var(--primary);
+}
+
+@include media-breakpoint-up(lg) {
+    .section-heading {
+        font-size: 50px;
+    }
+
+    .section-divider {
+        margin: 4rem 0;
+    }
+}
