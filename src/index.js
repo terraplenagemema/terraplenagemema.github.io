@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import "bootstrap";
 
+import logo from "./images/logo.png";
 import imageCompany from "./images/company.jpg";
 import imageC1 from "./images/c1.jpg";
 import imageC2 from "./images/c2.jpg";
@@ -20,7 +21,17 @@ import './index.scss';
 class App extends Component {
     render() {
         return (<>
-            <Navbar></Navbar>
+            <Navbar
+                logo={logo}
+                brand="Terraplenagem EMA"
+                items={{
+                    "company": "A empresa",
+                    "services": "Serviços",
+                    "album": "Fotos",
+                    "customers": "Clientes",
+                    "contact": "Contato"
+                }}
+            />
             <main>
                 <Header
                     title="Terraplenagem EMA"
@@ -72,7 +83,7 @@ class App extends Component {
                             </div>
                         </div>
                     }
-                    illustration={<Image image={imageC2}></Image>}
+                    illustration={<Image image={imageC4}></Image>}
                     orientation="right"
                 ></Section>
 
