@@ -4,6 +4,7 @@ echo "==> Building"
 git stash
 git checkout src
 git reset --hard src --
+commit=`git log -n1 --format="%H"`
 npm run build
 
 echo "==> Copying build to master branch"
@@ -19,7 +20,7 @@ find . -maxdepth 1 \
 mv build/* .
 rm -rf build
 
-echo "==> Committing changes (if necessary)"
+echo "==> Committing release to master (if necessary)"
 echo "deploy.sh" > .gitignore
 echo "node_modules" >> .gitignore
 git add .gitignore
@@ -28,7 +29,7 @@ git reset HEAD -- .gitignore
 rm -rf .gitignore
 export TZ='America/Sao_Paulo'
 release=`date +"%Y%m%d_%H%M%S"`
-git commit -m "Release $release"
+git commit -m "Release $release ($commit)"
 if [ $? == 1 ]; then
     echo "==> Nothing changed, new release is unnecessary"
 else
