@@ -12,6 +12,8 @@ import imageAlbum3 from "./images/album3.jpg";
 import imageAlbum4 from "./images/album4.jpg";
 import imageAlbum5 from "./images/album5.jpg";
 import imageAlbum6 from "./images/album6.jpg";
+import imageWhatsAppLogo from "./images/whatsapp.png";
+
 
 import {Navbar} from "./components/Navbar.js";
 import {Header} from "./components/Header.js";
@@ -155,7 +157,10 @@ class App extends Component {
                     description={
                         <>
                             <p className="text-center mb-4">
-                                <a className="btn btn-secondary" href="https://wa.me/5519996056605">Clique aqui e peça seu orçamento gratuito via WhatsApp!</a>
+                                <a className="btn btn-secondary d-flex align-items-center justify-content-center" href="https://wa.me/5519996056605">
+                                    <img className="btn-icon" src={imageWhatsAppLogo} />
+                                    Clique aqui e peça seu orçamento gratuito via WhatsApp!
+                                </a>
                             </p>
                             <div className="row">
                                 <div className="col-lg-6">
@@ -168,9 +173,9 @@ class App extends Component {
 
                                     Contatos diretos:
                                     <ul>
-                                        <li>Esmeraldo: <a href="tel:019996056603">(19) 99605-6603</a></li>
                                         <li>Edison: <a href="tel:019996056605">(19) 99605-6605</a></li>
                                         <li>Edevaldo: <a href="tel:019996056602">(19) 99605-6602</a></li>
+                                        <li>Esmeraldo: <a href="tel:019996056603">(19) 99605-6603</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-6">
