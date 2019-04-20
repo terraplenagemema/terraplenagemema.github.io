@@ -155,8 +155,8 @@ class App extends Component {
                     title="Contato"
                     description={
                         <>
-                            <p className="text-center p-2">
-                                <a className="btn btn-secondary" href="https://wa.me/5519996056602">Clique aqui e peça seu orçamento gratuito via WhatsApp!</a>
+                            <p className="text-center mb-4">
+                                <a className="btn btn-secondary" href="https://wa.me/5519996056605">Clique aqui e peça seu orçamento gratuito via WhatsApp!</a>
                             </p>
                             <div className="row">
                                 <div className="col-lg-6">
