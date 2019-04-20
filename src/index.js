@@ -39,8 +39,7 @@ class App extends Component {
             <main>
                 <Header
                     title="Terraplenagem EMA"
-                    description="A EMA realiza serviços de terraplenagem e locação de equipamentos
-                    em Monte Mor e região."
+                    description="Serviços de terraplenagem e locação de equipamentos em Monte Mor e região"
                     callToAction="Solicite um orçamento grátis!"
                     callToActionDestination="contact"></Header>
             </main>
