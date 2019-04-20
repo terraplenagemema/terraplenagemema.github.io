@@ -12,25 +12,25 @@ export class Section extends Component {
         }
 
         let description = (
-            <div className={`col-lg-${this.props.descriptionSize} ${descriptionOrder}`}>
+            <div className={`col-12 col-lg-${this.props.descriptionSize} ${descriptionOrder}`}>
                 <h2 className="section-heading mb-4">{this.props.title}</h2>
                 {this.props.description}
             </div>
         );
 
         let illustration = (
-            <div className={`col-lg-${this.props.illustrationSize} ${illustrationOrder}`}>
+            <div className={`col-12 col-lg-${this.props.illustrationSize} ${illustrationOrder}`}>
                 {this.props.illustration}
             </div>
         );
 
+        let orientation = this.props.orientation === "left"? "section-left" : "section-right";
         return (
             <>
-                <div id={`sec-${this.props.id}`} className="row section d-flex">
+                <div id={`sec-${this.props.id}`} className={`row ${orientation} section d-flex mt-4 mb-4 p-4`}>
                     {description}
                     {illustration}
                 </div>
-                <hr className="section-divider" />
             </>
         );
     }

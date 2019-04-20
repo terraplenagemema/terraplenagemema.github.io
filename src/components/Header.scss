@@ -2,10 +2,10 @@
 
 .header {
     height: 500px;
-    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%), url(../images/bg.jpg);
 }
 
 .header-content {
@@ -13,8 +13,12 @@
     border: 2px solid $primary;
 }
 
+.header-description {
+    font-size: 12px;
+}
+
 @media (min-width: 75em) {
-    .header-title {
-        font-size: 64px;
+    .header-description {
+        font-size: 16px;
     }
 }

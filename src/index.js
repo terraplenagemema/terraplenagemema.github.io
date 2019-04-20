@@ -4,10 +4,14 @@ import "bootstrap";
 
 import logo from "./images/logo.png";
 import imageCompany from "./images/company.jpg";
-import imageC1 from "./images/c1.jpg";
-import imageC2 from "./images/c2.jpg";
-import imageC3 from "./images/c3.jpg";
-import imageC4 from "./images/c4.jpg";
+import imageServices from "./images/services.jpg";
+import imageCustomers from "./images/customers.jpg";
+import imageAlbum1 from "./images/album1.jpg";
+import imageAlbum2 from "./images/album2.jpg";
+import imageAlbum3 from "./images/album3.jpg";
+import imageAlbum4 from "./images/album4.jpg";
+import imageAlbum5 from "./images/album5.jpg";
+import imageAlbum6 from "./images/album6.jpg";
 
 import {Navbar} from "./components/Navbar.js";
 import {Header} from "./components/Header.js";
@@ -83,7 +87,7 @@ class App extends Component {
                             </div>
                         </div>
                     }
-                    illustration={<Image image={imageC4}></Image>}
+                    illustration={<Image image={imageServices}></Image>}
                     orientation="right"
                 ></Section>
 
@@ -100,10 +104,12 @@ class App extends Component {
                     illustrationSize={8}
                     illustration={
                         <Carousel>
-                            <CarouselImage image={imageC1} active={true} />
-                            <CarouselImage image={imageC2} />
-                            <CarouselImage image={imageC3} />
-                            <CarouselImage image={imageC4} />
+                            <CarouselImage image={imageAlbum1} active={true} />
+                            <CarouselImage image={imageAlbum2} />
+                            <CarouselImage image={imageAlbum3} />
+                            <CarouselImage image={imageAlbum4} />
+                            <CarouselImage image={imageAlbum5} />
+                            <CarouselImage image={imageAlbum6} />
                         </Carousel>
                     }
                 ></Section>
@@ -140,7 +146,7 @@ class App extends Component {
                             </div>
                         </div>
                     </>}
-                    illustration={<Image image={imageC4}></Image>}
+                    illustration={<Image image={imageCustomers}></Image>}
                     orientation="right"
                 ></Section>
 
@@ -149,8 +155,9 @@ class App extends Component {
                     title="Contato"
                     description={
                         <>
-                            <p className="lead">Peça seu orçamento gratuito!</p>
-
+                            <p className="text-center p-2">
+                                <a className="btn btn-secondary" href="https://wa.me/5519996056602">Clique aqui e peça seu orçamento gratuito via WhatsApp!</a>
+                            </p>
                             <div className="row">
                                 <div className="col-lg-6">
                                     <address>
