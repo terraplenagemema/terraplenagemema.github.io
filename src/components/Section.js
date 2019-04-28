@@ -27,7 +27,7 @@ export class Section extends Component {
         let orientation = this.props.orientation === "left"? "section-left" : "section-right";
         return (
             <>
-                <div id={`sec-${this.props.id}`} className={`row ${orientation} section d-flex mt-4 mb-4 p-4`}>
+                <div id={`sec-${this.props.id}`} className={`row ${orientation} section d-flex mt-4 mb-4 py-4`}>
                     {description}
                     {illustration}
                 </div>
