@@ -38,21 +38,20 @@ class App extends Component {
                     "contact": "Contato"
                 }}
             />
-            <main>
-                <Header
-                    title="Terraplenagem EMA"
-                    description="Serviços de terraplenagem e locação de equipamentos em Monte Mor e região"
-                    callToAction="Solicite um orçamento grátis!"
-                    callToActionDestination="contact"></Header>
-            </main>
-            <div className="container mt-5">
+            <Header
+                title="Terraplenagem EMA"
+                description="Serviços de terraplenagem e locação de equipamentos em Monte Mor e região"
+                callToAction="Solicite um orçamento grátis!"
+                callToActionDestination="contact">
+            </Header>
+            <div className="container mt-4">
                 <Section
                     id="company"
                     title="A empresa"
                     description={<>
                         <p className="lead">A EMA realiza serviços de terraplenagem com qualidade e eficiência há mais de 30 anos.</p>
                         <p>Atuamos em Monte Mor e região. Nossa qualidade é comprovada através dos diversos tipos de serviços realizados para nossos clientes.</p>
-                        </>
+                    </>
                     }
                     illustration={<Image image={imageCompany}></Image>}
                     orientation="left"
@@ -64,7 +63,7 @@ class App extends Component {
                     description={
                         <div className="row">
                             <div className="col-lg-6">
-                            <p className="lead">Terraplenagem</p>
+                                <p className="lead">Terraplenagem</p>
                                 <ul>
                                     <li>Cortes e aterros</li>
                                     <li>Compensação de áreas para obtenção de platôs</li>
@@ -73,7 +72,7 @@ class App extends Component {
                                 </ul>
                             </div>
                             <div className="col-lg-6">
-                            <p className="lead">Locação</p>
+                                <p className="lead">Locação</p>
                                 <ul>
                                     <li>Escavadeiras hidráulicas</li>
                                     <li>Motoniveladora</li>
@@ -121,9 +120,6 @@ class App extends Component {
                     description={<>
                         <p className="lead">Conheça alguns de nossos clientes:</p>
                         <div className="row">
-
-
-
                             <div className="col-lg-6">
                                 <ul>
                                     <li>Alesco</li>
@@ -158,7 +154,7 @@ class App extends Component {
                         <>
                             <p className="text-center mb-4">
                                 <a className="btn btn-secondary d-flex align-items-center justify-content-center" href="https://wa.me/5519996056605">
-                                    <img className="btn-icon" src={imageWhatsAppLogo} />
+                                    <img className="btn-icon" src={imageWhatsAppLogo} alt="" />
                                     Clique aqui e peça seu orçamento gratuito via WhatsApp!
                                 </a>
                             </p>
@@ -203,7 +199,6 @@ class App extends Component {
                 ></Section>
 
                 <Footer year={2019} author="Terraplenagem EMA" />
-
             </div>
         </>
         );
@@ -211,6 +206,5 @@ class App extends Component {
 }
 
 export default App;
-
 
 ReactDOM.render(<App />, document.getElementById('root'));
