@@ -119,30 +119,30 @@ class App extends Component {
                     id="customers"
                     title="Clientes"
                     description={<>
-                        <p className="lead">Veja alguns de nossos clientes:</p>
+                        <p className="lead">Conheça alguns de nossos clientes:</p>
                         <div className="row">
+
+
+
                             <div className="col-lg-6">
                                 <ul>
-                                    <li>MRV Engenharia</li>
-                                    <li>SGO Construções</li>
-                                    <li>Hortolândia Incorporações</li>
-                                    <li>Pavimentadora e Construtora São Pedro</li>
-                                    <li>Agre Urbanismo</li>
-                                    <li>SAAE Capivari</li>
-                                    <li>Copagaz Distribuidora de Gás</li>
-                                    <li>Prefeitura de Elias Fausto</li>
+                                    <li>Alesco</li>
+                                    <li>SAAE indaiatuba</li>
+                                    <li>Corpus Indaiatuba</li>
+                                    <li>Asvotec Termoindustrial</li>
+                                    <li>NHL Requalificadora</li>
+                                    <li>Grupo CBP</li>
+                                    <li>Posto BR de Monte Mor</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
                                 <ul>
-                                    <li>Estância Árvore da Vida</li>
-                                    <li>Cassol Pré-Fabricados</li>
-                                    <li>Asvotec Termoindustrial</li>
-                                    <li>BMC Engenharia</li>
-                                    <li>NHL Requalificadora</li>
-                                    <li>CBP Brasil Colchões</li>
-                                    <li>Posto BR de Monte Mor</li>
-                                    <li>Sinter Futura</li>
+                                    <li>Haras Larissa </li>
+                                    <li>Pezão Bar</li>
+                                    <li>Solueng Engenharia</li>
+                                    <li>ECB </li>
+                                    <li>VCV Engenharia</li>
+                                    <li>John Deere</li>
                                 </ul>
                             </div>
                         </div>
