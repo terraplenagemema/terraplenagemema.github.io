@@ -11,7 +11,7 @@ export class Header extends Component {
                         <div className="col-sm-12 col-md-8">
                             <p className="lead font-weight-normal header-description">{this.props.description}</p>
                         </div>
-                        <div className="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">
+                        <div className="col-sm-12 col-md-4 d-flex align-items-center justify-content-center justify-content-md-end">
                             <a className="btn btn-secondary" href={`#sec-${this.props.callToActionDestination}`}>{this.props.callToAction}</a>
                         </div>
                     </div>

@@ -24,14 +24,17 @@ export class Section extends Component {
             </div>
         );
 
-        let orientation = this.props.orientation === "left"? "section-left" : "section-right";
+        let orientation = this.props.orientation === "left" ? "section-left" : "section-right";
         return (
-            <>
-                <div id={`sec-${this.props.id}`} className={`row ${orientation} section d-flex mt-4 mb-4 py-4`}>
-                    {description}
-                    {illustration}
+            <div id={`sec-${this.props.id}`} className={`row ${orientation} section d-flex mt-4 mb-4 py-4`}>
+                {/* Use nested containers to get full-width background color */}
+                <div className="container">
+                    <div className="row">
+                        {description}
+                        {illustration}
+                    </div>
                 </div>
-            </>
+            </div>
         );
     }
 }

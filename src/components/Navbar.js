@@ -9,12 +9,12 @@ export class Navbar extends Component {
         Object.entries(this.props.items).forEach(([item, label]) => {
             items.push(
                 <li key={item} className="nav-item">
-                    <a className="nav-link text-white" href={`#sec-${item}`}>{label}</a>
+                    <a className="nav-link" href={`#sec-${item}`}>{label}</a>
                 </li>);
         });
         return (
             <header>
-                <nav className="navbar navbar-dark navbar-expand-lg navbar-ema">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a className="navbar-brand d-flex align-items-center" href="#">
                         <div className="logo-container">
                             <img className="logo" alt={this.props.brand} src={this.props.logo} />
