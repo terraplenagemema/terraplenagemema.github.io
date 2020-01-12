@@ -63,12 +63,19 @@ class App extends Component {
                     description={
                         <div className="row">
                             <div className="col-lg-6">
-                                <p className="lead">Terraplenagem</p>
+                            <p className="lead">Terraplenagem</p>
                                 <ul>
                                     <li>Cortes e aterros</li>
                                     <li>Compensação de áreas para obtenção de platôs</li>
                                     <li>Transporte de materiais escavados</li>
                                     <li>Escavação em locais diversos</li>
+                                </ul>
+                            <p className="lead">Venda e transporte</p>
+                                <ul>
+                                    <li>Areia</li>
+                                    <li>Pedra</li>
+                                    <li>Terra</li>
+                                    <li>Água</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">
@@ -79,10 +86,11 @@ class App extends Component {
                                     <li>Retroescavadeiras</li>
                                     <li>Rolos compactadores</li>
                                     <li>Tratores agrícolas</li>
-                                    <li>Valetadeiras</li>
                                     <li>Caminhões pipa</li>
                                     <li>Carretas prancha</li>
                                     <li>Caminhões basculantes</li>
+                                    <li>Mini escavadeira</li>
+                                    <li>Mini carregadeira</li>
                                 </ul>
                             </div>
                         </div>
