@@ -23,6 +23,7 @@ rm -rf build
 echo "==> Committing release to master (if necessary)"
 echo "deploy.sh" > .gitignore
 echo "node_modules" >> .gitignore
+echo "ematerraplenagem.com.br" > CNAME
 git add .gitignore
 git add .
 git reset HEAD -- .gitignore
