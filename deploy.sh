@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eux
+
 git push origin src
 git reset --hard origin/src
 
