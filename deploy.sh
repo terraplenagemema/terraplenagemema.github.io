@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git push origin src
+git reset --hard origin/src
+
 echo "==> Building"
 git stash
 git checkout src
@@ -24,19 +27,16 @@ echo "==> Committing release to master (if necessary)"
 echo "deploy.sh" > .gitignore
 echo "node_modules" >> .gitignore
 echo "ematerraplenagem.com.br" > CNAME
+export TZ='America/Sao_Paulo'
+release=`date +"%Y%m%d_%H%M%S"`
+echo "$release ($commit)" > VERSION
 git add .gitignore
 git add .
 git reset HEAD -- .gitignore
 rm -rf .gitignore
-export TZ='America/Sao_Paulo'
-release=`date +"%Y%m%d_%H%M%S"`
 git commit -m "Release $release ($commit)"
-if [ $? == 1 ]; then
-    echo "==> Nothing changed, new release is unnecessary"
-else
-    echo "==> Pushing release $release"
-    git push origin master
-fi;
+echo "==> Pushing release $release"
+git push origin master
 
 echo "==> Restoring development environment"
 git checkout src
