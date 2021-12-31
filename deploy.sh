@@ -41,6 +41,7 @@ echo "==> Pushing release $release"
 git push origin master
 
 echo "==> Restoring development environment"
+sleep 5
 git checkout src
 git reset --hard src --
 git stash pop
