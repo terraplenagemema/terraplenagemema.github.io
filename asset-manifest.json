@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.271103fc.chunk.css",
-    "main.js": "/static/js/main.55eede3a.chunk.js",
-    "main.js.map": "/static/js/main.55eede3a.chunk.js.map",
+    "main.css": "/static/css/main.d9d42e46.chunk.css",
+    "main.js": "/static/js/main.3a00a800.chunk.js",
+    "main.js.map": "/static/js/main.3a00a800.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.21866c52.js",
     "runtime-main.js.map": "/static/js/runtime-main.21866c52.js.map",
     "static/js/2.92a2f800.chunk.js": "/static/js/2.92a2f800.chunk.js",
     "static/js/2.92a2f800.chunk.js.map": "/static/js/2.92a2f800.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.271103fc.chunk.css.map": "/static/css/main.271103fc.chunk.css.map",
+    "static/css/main.d9d42e46.chunk.css.map": "/static/css/main.d9d42e46.chunk.css.map",
     "static/js/2.92a2f800.chunk.js.LICENSE.txt": "/static/js/2.92a2f800.chunk.js.LICENSE.txt",
-    "static/media/album1.8277d623.jpg": "/static/media/album1.8277d623.jpg",
-    "static/media/album2.f6dcd70b.jpg": "/static/media/album2.f6dcd70b.jpg",
-    "static/media/album3.4df84d73.jpg": "/static/media/album3.4df84d73.jpg",
-    "static/media/album4.d1220f4b.jpg": "/static/media/album4.d1220f4b.jpg",
-    "static/media/album5.ad23ac68.jpg": "/static/media/album5.ad23ac68.jpg",
-    "static/media/album6.bebc7beb.jpg": "/static/media/album6.bebc7beb.jpg",
-    "static/media/Header.scss": "/static/media/bg.2cfe32b9.jpg",
-    "static/media/company.5ae73431.jpg": "/static/media/company.5ae73431.jpg",
-    "static/media/customers.757282f5.jpg": "/static/media/customers.757282f5.jpg",
-    "static/media/services.4351f0b8.jpg": "/static/media/services.4351f0b8.jpg",
+    "static/media/album1.1d0ab560.webp": "/static/media/album1.1d0ab560.webp",
+    "static/media/album2.ed39c161.webp": "/static/media/album2.ed39c161.webp",
+    "static/media/album3.ec65b847.webp": "/static/media/album3.ec65b847.webp",
+    "static/media/album4.eaa193ef.webp": "/static/media/album4.eaa193ef.webp",
+    "static/media/album5.3760df47.webp": "/static/media/album5.3760df47.webp",
+    "static/media/album6.9324738c.webp": "/static/media/album6.9324738c.webp",
+    "static/media/Header.scss": "/static/media/bg.9ebd59bd.webp",
+    "static/media/company.8432eb26.webp": "/static/media/company.8432eb26.webp",
+    "static/media/customers.c3afd441.webp": "/static/media/customers.c3afd441.webp",
+    "static/media/services.41194eee.webp": "/static/media/services.41194eee.webp",
     "static/media/whatsapp.a7308488.png": "/static/media/whatsapp.a7308488.png"
   },
   "entrypoints": [
     "static/js/runtime-main.21866c52.js",
     "static/js/2.92a2f800.chunk.js",
-    "static/css/main.271103fc.chunk.css",
-    "static/js/main.55eede3a.chunk.js"
+    "static/css/main.d9d42e46.chunk.css",
+    "static/js/main.3a00a800.chunk.js"
   ]
 }
