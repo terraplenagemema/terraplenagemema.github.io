@@ -18,9 +18,3 @@
         height: 300px;
     }
 }
-
-@include media-breakpoint-down(xs) {
-    .photo {
-        height: 250px;
-    }
-}

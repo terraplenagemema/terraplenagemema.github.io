@@ -44,7 +44,7 @@ class App extends Component {
                 callToAction="Solicite um orçamento grátis!"
                 callToActionDestination="contact">
             </Header>
-            <div className="container-fluid mt-4">
+            <div className="container mt-4">
                 <Section
                     id="company"
                     title="A empresa"
@@ -206,7 +206,7 @@ class App extends Component {
                     }
                 ></Section>
 
-                <Footer year={2019} author="Terraplenagem EMA" />
+                <Footer year={2021} author="Terraplenagem EMA" />
             </div>
         </>
         );

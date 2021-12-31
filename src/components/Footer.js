@@ -4,8 +4,14 @@ export class Footer extends Component {
     render() {
         return (
             <footer className="container">
-                <p className="float-right"><a href="#">Voltar ao topo</a></p>
-                <p>&copy; {this.props.year} {this.props.author}</p>
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        <p>&copy; {this.props.year} {this.props.author}</p>
+                    </div>
+                    <div class="col-4 text-end">
+                        <a href="#top">Voltar ao topo</a>
+                    </div>
+                </div>
             </footer>
         );
     }

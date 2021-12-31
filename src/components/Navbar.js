@@ -13,25 +13,24 @@ export class Navbar extends Component {
                 </li>);
         });
         return (
-            <header>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a className="navbar-brand d-flex align-items-center" href="#">
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+                <div className="container-fluid">
+                    <div className="navbar-brand">
                         <div className="logo-container">
                             <img className="logo" alt={this.props.brand} src={this.props.logo} />
                         </div>
                         <span>{this.props.brand}</span>
-                    </a>
-                    <button className="navbar-custom-toggler btn" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    </div>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
-                        <ul className="navbar-nav mr-auto">
+                        <ul className="navbar-nav me-auto mb-2 mb-md-0">
                             {items}
                         </ul>
                     </div>
-                </nav>
-            </header>
+                </div>
+            </nav>
         );
     }
 }
