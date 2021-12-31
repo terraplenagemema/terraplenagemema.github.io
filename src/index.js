@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import "bootstrap";
 
 import logo from "./images/logo.png";
-import imageCompany from "./images/company.jpg";
-import imageServices from "./images/services.jpg";
-import imageCustomers from "./images/customers.jpg";
-import imageAlbum1 from "./images/album1.jpg";
-import imageAlbum2 from "./images/album2.jpg";
-import imageAlbum3 from "./images/album3.jpg";
-import imageAlbum4 from "./images/album4.jpg";
-import imageAlbum5 from "./images/album5.jpg";
-import imageAlbum6 from "./images/album6.jpg";
+import imageCompany from "./images/company.webp";
+import imageServices from "./images/services.webp";
+import imageCustomers from "./images/customers.webp";
+import imageAlbum1 from "./images/album1.webp";
+import imageAlbum2 from "./images/album2.webp";
+import imageAlbum3 from "./images/album3.webp";
+import imageAlbum4 from "./images/album4.webp";
+import imageAlbum5 from "./images/album5.webp";
+import imageAlbum6 from "./images/album6.webp";
 import imageWhatsAppLogo from "./images/whatsapp.png";
 
 
