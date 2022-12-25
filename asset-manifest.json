@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9d42e46.chunk.css",
-    "main.js": "/static/js/main.3a00a800.chunk.js",
-    "main.js.map": "/static/js/main.3a00a800.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.21866c52.js",
-    "runtime-main.js.map": "/static/js/runtime-main.21866c52.js.map",
-    "static/js/2.92a2f800.chunk.js": "/static/js/2.92a2f800.chunk.js",
-    "static/js/2.92a2f800.chunk.js.map": "/static/js/2.92a2f800.chunk.js.map",
+    "main.css": "/static/css/main.0c1cf92f.css",
+    "main.js": "/static/js/main.c8bad627.js",
+    "static/media/bg.webp": "/static/media/bg.9ebd59bd9ac6b91ccf98.webp",
+    "static/media/album5.webp": "/static/media/album5.3760df47bb327317620c.webp",
+    "static/media/album1.webp": "/static/media/album1.1d0ab560399535584244.webp",
+    "static/media/album4.webp": "/static/media/album4.eaa193ef54123740fdae.webp",
+    "static/media/album6.webp": "/static/media/album6.9324738c9e7a8c4d1493.webp",
+    "static/media/album3.webp": "/static/media/album3.ec65b847e8ce39d98bf5.webp",
+    "static/media/album2.webp": "/static/media/album2.ed39c161b52ed2dab561.webp",
+    "static/media/services.webp": "/static/media/services.41194eeea414d67f70ff.webp",
+    "static/media/company.webp": "/static/media/company.8432eb26a80228a9416a.webp",
+    "static/media/customers.webp": "/static/media/customers.c3afd441964179cd907a.webp",
+    "static/media/whatsapp.png": "/static/media/whatsapp.a730848833d9a022a76f.png",
     "index.html": "/index.html",
-    "static/css/main.d9d42e46.chunk.css.map": "/static/css/main.d9d42e46.chunk.css.map",
-    "static/js/2.92a2f800.chunk.js.LICENSE.txt": "/static/js/2.92a2f800.chunk.js.LICENSE.txt",
-    "static/media/album1.1d0ab560.webp": "/static/media/album1.1d0ab560.webp",
-    "static/media/album2.ed39c161.webp": "/static/media/album2.ed39c161.webp",
-    "static/media/album3.ec65b847.webp": "/static/media/album3.ec65b847.webp",
-    "static/media/album4.eaa193ef.webp": "/static/media/album4.eaa193ef.webp",
-    "static/media/album5.3760df47.webp": "/static/media/album5.3760df47.webp",
-    "static/media/album6.9324738c.webp": "/static/media/album6.9324738c.webp",
-    "static/media/Header.scss": "/static/media/bg.9ebd59bd.webp",
-    "static/media/company.8432eb26.webp": "/static/media/company.8432eb26.webp",
-    "static/media/customers.c3afd441.webp": "/static/media/customers.c3afd441.webp",
-    "static/media/services.41194eee.webp": "/static/media/services.41194eee.webp",
-    "static/media/whatsapp.a7308488.png": "/static/media/whatsapp.a7308488.png"
+    "main.0c1cf92f.css.map": "/static/css/main.0c1cf92f.css.map",
+    "main.c8bad627.js.map": "/static/js/main.c8bad627.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.21866c52.js",
-    "static/js/2.92a2f800.chunk.js",
-    "static/css/main.d9d42e46.chunk.css",
-    "static/js/main.3a00a800.chunk.js"
+    "static/css/main.0c1cf92f.css",
+    "static/js/main.c8bad627.js"
   ]
 }
