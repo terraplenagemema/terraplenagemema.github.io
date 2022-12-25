@@ -4,11 +4,11 @@ export class Footer extends Component {
     render() {
         return (
             <footer className="container">
-                <div class="row justify-content-between">
-                    <div class="col-4">
+                <div className="row justify-content-between">
+                    <div className="col-4">
                         <p>&copy; {this.props.author}</p>
                     </div>
-                    <div class="col-4 text-end">
+                    <div className="col-4 text-end">
                         <a href="#top">Voltar ao topo</a>
                     </div>
                 </div>

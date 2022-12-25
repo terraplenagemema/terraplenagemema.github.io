@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOMClient from 'react-dom/client';
 import "bootstrap";
 
 import logo from "./images/logo.png";
@@ -13,7 +13,6 @@ import imageAlbum4 from "./images/album4.webp";
 import imageAlbum5 from "./images/album5.webp";
 import imageAlbum6 from "./images/album6.webp";
 import imageWhatsAppLogo from "./images/whatsapp.png";
-
 
 import {Navbar} from "./components/Navbar.js";
 import {Header} from "./components/Header.js";
@@ -162,7 +161,7 @@ class App extends Component {
                         <>
                             <p className="text-center mb-4">
                                 <a className="btn btn-secondary d-flex align-items-center justify-content-center" href="https://wa.me/5519996056605">
-                                    <img className="btn-icon" src={imageWhatsAppLogo} alt="" />
+                                    <img className="btn-icon" src={imageWhatsAppLogo} alt="" width="48px" height="48px" />
                                     Clique aqui e peça seu orçamento gratuito via WhatsApp!
                                 </a>
                             </p>
@@ -215,4 +214,5 @@ class App extends Component {
 
 export default App;
 
-ReactDOM.render(<App />, document.getElementById('root'));
+let root = ReactDOMClient.createRoot(document.getElementById('root'));
+root.render(<App />);
