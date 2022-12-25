@@ -40,7 +40,7 @@ class App extends Component {
             />
             <Header
                 title="Terraplenagem EMA"
-                description="Serviços de terraplenagem e locação de equipamentos em Monte Mor e região"
+                description="Serviços de terraplenagem e locação de equipamentos em Monte Mor, Campinas, Sumaré, Indaiatuba e região"
                 callToAction="Solicite um orçamento grátis!"
                 callToActionDestination="contact">
             </Header>
@@ -49,8 +49,8 @@ class App extends Component {
                     id="company"
                     title="A empresa"
                     description={<>
-                        <p className="lead">A EMA realiza serviços de terraplenagem com qualidade e eficiência há mais de 30 anos.</p>
-                        <p>Atuamos em Monte Mor e região. Nossa qualidade é comprovada através dos diversos tipos de serviços realizados para nossos clientes.</p>
+                        <p className="lead">A EMA realiza serviços de terraplenagem em Monte Mor, Campinas, Indaiatuba, Sumaré e região.</p>
+                        <p>Trabalhamos com qualidade e eficiência há mais de 30 anos. Nossa qualidade pode ser comprovada através dos diversos tipos de serviços realizados para nossos clientes.</p>
                     </>
                     }
                     illustration={<Image image={imageCompany}></Image>}
@@ -63,14 +63,14 @@ class App extends Component {
                     description={
                         <div className="row">
                             <div className="col-lg-6">
-                            <p className="lead">Terraplenagem</p>
+                                <p className="lead">Terraplenagem</p>
                                 <ul>
                                     <li>Cortes e aterros</li>
                                     <li>Compensação de áreas para obtenção de platôs</li>
                                     <li>Transporte de materiais escavados</li>
                                     <li>Escavação em locais diversos</li>
                                 </ul>
-                            <p className="lead">Venda e transporte</p>
+                                <p className="lead">Venda e transporte</p>
                                 <ul>
                                     <li>Areia</li>
                                     <li>Pedra</li>
@@ -187,8 +187,8 @@ class App extends Component {
                                     <ul>
                                         <li>Monte Mor</li>
                                         <li>Campinas</li>
-                                        <li>Indaiatuba</li>
                                         <li>Sumaré</li>
+                                        <li>Indaiatuba</li>
                                         <li>Americana</li>
                                         <li>Capivari</li>
                                         <li>Elias Fausto</li>
@@ -206,7 +206,7 @@ class App extends Component {
                     }
                 ></Section>
 
-                <Footer year={2021} author="Terraplenagem EMA" />
+                <Footer author="Terraplenagem EMA" />
             </div>
         </>
         );

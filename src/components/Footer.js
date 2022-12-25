@@ -6,7 +6,7 @@ export class Footer extends Component {
             <footer className="container">
                 <div class="row justify-content-between">
                     <div class="col-4">
-                        <p>&copy; {this.props.year} {this.props.author}</p>
+                        <p>&copy; {this.props.author}</p>
                     </div>
                     <div class="col-4 text-end">
                         <a href="#top">Voltar ao topo</a>
