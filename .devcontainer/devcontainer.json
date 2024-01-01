@@ -1,0 +1,39 @@
+{
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "containerUser": "emamaral",
+    "onCreateCommand": "/workspaces/terraplenagemema.github.io/.devcontainer/create.sh",
+    "containerEnv": {
+      "SHELL": "/bin/bash",
+      "DEBIAN_FRONTEND": "noninteractive",
+      "LANG": "en_US.UTF-8",
+      "LC_CTYPE": "pt_BR.UTF-8",
+      "LC_NUMERIC": "pt_BR.UTF-8",
+      "LC_TIME": "pt_BR.UTF-8",
+      "LC_COLLATE": "en_US.UTF-8",
+      "LC_MONETARY": "pt_BR.UTF-8",
+      "LC_MESSAGES": "en_US.UTF-8",
+      "LC_PAPER": "pt_BR.UTF-8",
+      "LC_NAME": "pt_BR.UTF-8",
+      "LC_ADDRESS": "pt_BR.UTF-8",
+      "LC_TELEPHONE": "pt_BR.UTF-8",
+      "LC_MEASUREMENT": "pt_BR.UTF-8",
+      "LC_IDENTIFICATION": "pt_BR.UTF-8",
+      "PATH": "${localEnv:PATH}:/home/emamaral/dev/go/bin:/home/emamaral/dev/node/bin"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint"
+        ]
+      },
+      "codespaces": {
+        "repositories": {
+          "terraplenagemema/terraplenagemema.github.io": {
+            "permissions": "write-all"
+          }
+        }
+      }
+    }
+  }
