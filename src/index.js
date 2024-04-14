@@ -15,6 +15,9 @@ import imageAlbum6 from "./images/album6.webp";
 import imageAlbum7 from "./images/album7.webp";
 import imageAlbum8 from "./images/album8.webp";
 import imageAlbum9 from "./images/album9.webp";
+import imageAlbum10 from "./images/album10.webp";
+import imageAlbum11 from "./images/album11.webp";
+import imageAlbum12 from "./images/album12.webp";
 import imageWhatsAppLogo from "./images/whatsapp.png";
 
 import {Navbar} from "./components/Navbar.js";
@@ -123,6 +126,9 @@ class App extends Component {
                             <CarouselImage image={imageAlbum7} />
                             <CarouselImage image={imageAlbum8} />
                             <CarouselImage image={imageAlbum9} />
+                            <CarouselImage image={imageAlbum10} />
+                            <CarouselImage image={imageAlbum11} />
+                            <CarouselImage image={imageAlbum12} />
                         </Carousel>
                     }
                 ></Section>
