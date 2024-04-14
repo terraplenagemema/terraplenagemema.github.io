@@ -109,7 +109,7 @@ class App extends Component {
                     title="Fotos"
                     description={
                         <p className="lead">
-                            Na EMA nos orgulhamos de nossos serviços e equipamentos. Veja ao lado alguns de nossos equipamento e as obras que realizamos.
+                            Na EMA nos orgulhamos de nossos serviços e equipamentos. Veja aqui alguns de nossos equipamento e as obras que realizamos.
                         </p>
                     }
                     orientation="left"
